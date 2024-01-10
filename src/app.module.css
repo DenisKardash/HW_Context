@@ -7,7 +7,7 @@
 	border: 3px solid darkorange;
 	border-radius: 5px;
 	background-color: burlywood;
-	box-shadow:0 0 10px #000
+	box-shadow: 0 0 10px #000;
 }
 
 .list {
@@ -23,19 +23,27 @@
 }
 
 .button {
+	min-width: 50px;
 	margin: 5px;
 	border-radius: 5px;
 	background: rgb(66, 66, 66);
 	color: darkorange;
 }
 
+.delButton {
+	min-width: 50px;
+	margin: 5px;
+	border-radius: 5px;
+	background: rgb(66, 66, 66);
+	color: red;
+}
+
 .input {
-	width: 50%;
+	width: 60%;
 	margin-right: 10px;
 	border-radius: 3px;
 	background: rgb(66, 66, 66);
 	color: darkorange;
-
 }
 
 .loader {
